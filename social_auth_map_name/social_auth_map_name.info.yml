@@ -1,7 +1,0 @@
-name: 'Social Auth Map Name'
-type: module
-description: 'Maps first name and last name from social login to Drupal user account.'
-core: 8.x
-package: 'Social'
-dependencies:
-  - social_auth
