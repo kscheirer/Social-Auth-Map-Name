@@ -1,0 +1,6 @@
+services:
+  social_auth_map_name.event_subscriber:
+    class: Drupal\social_auth_map_name\EventSubscriber\SocialAuthSubscriber
+    arguments: ['@social_auth.data_handler', '@plugin.network.manager', '@social_auth_google.manager']
+    tags:
+      - { name: event_subscriber }
