@@ -1,0 +1,14 @@
+{
+"name": "kscheirer/social-auth-map-name",
+"type": "drupal-module-custom",
+"description": "Allow Social Auth module to work with Apigee Kickstart distribution to map First and Last Name",
+"keywords": ["Drupal", "social-auth-map-name"],
+"license": "proprietary",
+"authors": [
+{
+"name": "Team",
+"email": "email@email"
+}
+],
+"require": {}
+}
